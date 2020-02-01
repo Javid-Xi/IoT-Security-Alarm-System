@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- IOE demo -->
+    <string name="download_fail">下载配置文件失败啦！</string>
+    <string name="sure">确定</string>
+    <string name="devicedisconnected">LElink设备已断开</string>
+    <string name="no_notice">一个消息都没有，好孤独——</string>
+
+    <!-- 独立部署设置 -->
+
+
+    <!-- 独立部署帮助 -->
+
+
+    <!-- 通用区域部署 -->
+
+    <!-- 如何自定义部署 -->
+
+
+    <!-- 提示框 -->
+
+</resources>

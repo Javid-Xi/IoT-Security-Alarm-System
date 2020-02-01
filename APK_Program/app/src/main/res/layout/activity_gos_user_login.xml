@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="260dp"
+            android:layout_height="250dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/user_login_logo" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        style="@style/InputBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginBottom="12dp">
+
+        <EditText
+            android:id="@+id/etName"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="19dp"
+            android:background="@null"
+            android:ems="10"
+            android:hint="@string/name_hint"
+            android:textColor="@color/text_color"
+            android:textColorHint="@color/hint_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/InputBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_below="@+id/linearLayout1">
+
+        <EditText
+            android:id="@+id/etPsw"
+            style="@style/EditTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="22dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:ems="10"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword"
+            android:textColor="@color/text_color"
+            android:textColorHint="@color/hint_color"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/cbLaws"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/checkbox_laws_selector"
+            android:button="@null" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tvForget"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="@string/ok" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+        <!--resetPassword-all-start-->
+        <TextView
+            android:id="@+id/tvForget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dp"
+            android:padding="5dp"
+            android:text="@string/forget_password"
+            android:textColor="@color/text_gray"
+            android:textSize="18sp" />
+        <!--resetPassword-all-end-->
+        <!--register-all-start-->
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="18dp"
+            android:padding="5dp"
+            android:text="@string/register"
+            android:textColor="@color/text_gray"
+            android:textSize="18sp" />
+        <!--register-all-end-->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp">
+
+            <!--login_anonymous-false-start-->
+            <TextView
+                android:id="@+id/tvPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"
+                android:text="@string/pass"
+                android:textColor="@color/text_gray"
+                android:textSize="18dp" />
+            <!--login_anonymous-false-end-->
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="19dp">
+
+                <LinearLayout
+                    android:id="@+id/llInland"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <!--login_qq-false-start-->
+                    <LinearLayout
+                        android:id="@+id/llQQ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="26dp"
+                            android:layout_height="26dp"
+                            android:layout_marginRight="9dp"
+                            android:src="@drawable/user_login_qq" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="12dp"
+                            android:gravity="center_vertical"
+                            android:text="@string/QQ"
+                            android:textColor="@color/text_gray"
+                            android:textSize="18sp" />
+
+
+                    </LinearLayout>
+                    <!--login_qq-false-end-->
+
+                    <!--login_qq-false-start-->
+                    <!--login_weChat-false-start-->
+                    <View
+                        android:id="@+id/view_line"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:background="@color/border_color" />
+                    <!--login_weChat-false-end-->
+                    <!--login_qq-false-end-->
+
+                    <!--login_weChat-false-start-->
+                    <LinearLayout
+                        android:id="@+id/llWechat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="26dp"
+                            android:layout_height="26dp"
+                            android:layout_marginLeft="12dp"
+                            android:src="@drawable/user_login_wechat" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="9dp"
+                            android:gravity="center_vertical"
+                            android:text="@string/Wechat"
+                            android:textColor="@color/text_gray"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                    <!--login_weChat-false-end-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llForeign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_centerHorizontal="true"
+                    android:visibility="gone">
+
+
+                    <!--login_weChat-false-start-->
+                    <LinearLayout
+                        android:id="@+id/llWechat1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="26dp"
+                            android:layout_height="26dp"
+                            android:layout_marginLeft="12dp"
+                            android:src="@drawable/user_login_wechat" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="9dp"
+                            android:gravity="center_vertical"
+                            android:text="@string/Wechat"
+                            android:textColor="@color/text_gray"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                    <!--login_weChat-false-end-->
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

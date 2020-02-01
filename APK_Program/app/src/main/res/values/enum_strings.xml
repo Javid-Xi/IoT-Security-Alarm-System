@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="enum_Alarm">
+        <item>关闭 </item>
+        <item>语音报警 </item>
+        <item>蜂鸣器报警 </item>
+        <item>语音+蜂鸣器 </item>
+    </string-array>
+	
+</resources>

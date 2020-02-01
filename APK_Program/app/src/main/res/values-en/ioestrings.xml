@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- 部署 -->
+    <string name="sure">Confirm</string>
+    <string name="download_fail">Failed to download the Profile</string>
+    <string name="devicedisconnected">device disconnected</string>
+    <string name="no_notice">no news announcements</string>
+
+
+    <!-- 独立部署设置 -->
+
+
+    <!-- 独立部署帮助 -->
+
+
+    <!-- 通用区域部署 -->
+
+    <!-- 自定义部署设置 -->
+
+    <!-- 如何自定义部署 -->
+
+
+    <!-- 提示框 -->
+
+
+</resources>

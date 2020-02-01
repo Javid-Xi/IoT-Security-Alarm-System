@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/header_toolbar" />
+    
+	<ScrollView 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@color/background_color"
+	    android:fadingEdge="vertical"
+	    android:paddingBottom="10dp"
+	    android:paddingTop="20dp"
+	    android:scrollbars="vertical" >
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:scrollbars="vertical" >
+	        
+			
+            <!-- 模式(布尔可写) -->
+			 <RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="1dp"
+					android:background="@color/white"
+					android:padding="10dp" >
+			 
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:layout_centerVertical="true"
+						android:text="主机工作模式" />
+
+					<Switch
+						android:id="@+id/sw_bool_MODEL"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:layout_alignParentRight="true"
+						android:layout_centerVertical="true"
+						android:textOff="关闭"
+						android:textOn="开启" />
+						
+			</RelativeLayout>	
+	
+			
+            <!-- 报警(枚举可写) -->
+			 <RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="1dp"
+					android:background="@color/white"
+					android:padding="10dp" >
+			 
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:layout_centerVertical="true"
+						android:text="报警模式" />
+
+
+					<Spinner
+						android:id="@+id/sp_enum_Alarm"
+						android:layout_width="110dp"
+						android:layout_height="wrap_content"
+						android:layout_alignParentRight="true"
+						android:entries="@array/enum_Alarm" />				
+			</RelativeLayout>
+
+			<!-- 温度(数值只读) -->
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="1dp"
+				android:background="@color/white"
+				android:padding="10dp" >
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_centerVertical="true"
+					android:text="温度 (°C)" />
+
+				<TextView
+					android:id="@+id/tv_data_Temperature"
+					android:layout_width="110dp"
+					android:layout_height="match_parent"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:gravity="end"
+					android:textSize="16sp"
+					android:textColor="@color/gray" />
+			</RelativeLayout>
+
+			<!-- 湿度(数值只读) -->
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="1dp"
+				android:background="@color/white"
+				android:padding="10dp" >
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_centerVertical="true"
+					android:text="湿度(%)" />
+
+				<TextView
+					android:id="@+id/tv_data_Humidity"
+					android:layout_width="110dp"
+					android:layout_height="match_parent"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:gravity="end"
+					android:textSize="16sp"
+					android:textColor="@color/gray" />
+			</RelativeLayout>
+
+            <!-- 烟雾传感器(布尔只读) -->
+			 <RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="1dp"
+					android:background="@color/white"
+					android:padding="10dp" >
+			 
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:layout_centerVertical="true"
+						android:text="烟雾传感器" />
+
+					<Switch
+						android:id="@+id/sw_bool_MQ_2"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:layout_alignParentRight="true"
+						android:layout_centerVertical="true"
+						android:textOff="关闭"
+						android:textOn="开启" />
+						
+			</RelativeLayout>
+			
+            <!-- 火焰传感器(布尔只读) -->
+			 <RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="1dp"
+					android:background="@color/white"
+					android:padding="10dp" >
+			 
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:layout_centerVertical="true"
+						android:text="火焰传感器" />
+
+					<Switch
+						android:id="@+id/sw_bool_flame_1"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:layout_alignParentRight="true"
+						android:layout_centerVertical="true"
+						android:textOff="关闭"
+						android:textOn="开启" />
+						
+			</RelativeLayout>
+
+			<!-- 无线门磁1(布尔只读) -->
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="1dp"
+				android:background="@color/white"
+				android:padding="10dp" >
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_centerVertical="true"
+					android:text="门窗传感器1" />
+
+				<Switch
+					android:id="@+id/sw_bool_MENCI_1"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:textOff="关闭"
+					android:textOn="开启" />
+
+			</RelativeLayout>
+
+			<!-- 无线门磁2(布尔只读) -->
+			 <RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="1dp"
+					android:background="@color/white"
+					android:padding="10dp" >
+			 
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:layout_centerVertical="true"
+						android:text="门窗传感器2" />
+
+					<Switch
+						android:id="@+id/sw_bool_MENCI_2"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:layout_alignParentRight="true"
+						android:layout_centerVertical="true"
+						android:textOff="关闭"
+						android:textOn="开启" />
+						
+			</RelativeLayout>	
+	
+			
+
+	
+		
+	    </LinearLayout>
+
+	</ScrollView>
+</LinearLayout>

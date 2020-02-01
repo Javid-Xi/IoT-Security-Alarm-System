@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/header_toolbar"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <ImageView
+            android:layout_width="159dp"
+            android:layout_height="177dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/device_none" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/configuration_message"
+            android:textColor="@color/text_gray"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/InputBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="40dp">
+
+        <EditText
+            android:id="@+id/etSSID"
+            style="@style/EditTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="22dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:ems="10"
+            android:hint="@string/choose_wifi_list_title"
+            android:textColor="@color/text_gray"
+            android:textColorHint="@color/hint_color"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:id="@+id/rlWiFiList"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="15dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/common_arrow_right" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/InputBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="12dp">
+
+        <EditText
+            android:id="@+id/etPsw"
+            style="@style/EditTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="22dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:ems="10"
+            android:hint="@string/softPsw_hint"
+            android:inputType="textPassword"
+            android:textColor="@color/text_gray"
+            android:textColorHint="@color/hint_color"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/cbLaws"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/checkbox_laws_selector"
+            android:button="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:text="@string/five_wifi"
+            android:textColor="@color/text_state" />
+
+        <Button
+            android:id="@+id/btnNext"
+            style="@style/ButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/next" />
+    </RelativeLayout>
+
+</LinearLayout>

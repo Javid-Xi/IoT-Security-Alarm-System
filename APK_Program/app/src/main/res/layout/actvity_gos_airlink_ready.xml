@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <include layout="@layout/header_toolbar"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_color" />
+
+    <TextView
+        android:id="@+id/tvDeviceTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/power_on"
+        android:textColor="@color/text_color"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvReady"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/common_ready_message"
+        android:textSize="16sp" />
+
+
+    <ImageView
+        android:id="@+id/ivReady"
+        android:layout_width="268dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/deviceonboarding_airlink_tips" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnNext"
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:text="@string/complete" />
+    </RelativeLayout>
+
+
+</LinearLayout>

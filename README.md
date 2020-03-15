@@ -20,7 +20,7 @@
 ### 2.Keil uVision5
 [![](Photo/stm32cubemx.jpg)](https://www.st.com/zh/development-tools/stm32cubemx.html)
 ### 3.Android Studio
-[![](Photo/android-studio-logo.png)](https://developer.android.com/studio)
+[![](Photo/android-studio-logo.jpg)](https://developer.android.com/studio)
 ## Cloud Platform
 ### 1.Gizwits(机智云)
 [![](Photo/Gizwits.jpg)](http://www.gizwits.com/)  

@@ -166,14 +166,6 @@ void USART1_IRQHandler(void)  //串口1中断服务程序
 			USART_ClearITPendingBit(USART1,USART_IT_RXNE);
   } 
 	
-//void USART2_IRQHandler(void)  //串口2中断服务程序
-//{
-//	if(USART_GetITStatus(USART2, USART_IT_RXNE) != RESET)  //接收中断
-//	{
-//		Voice_work=USART_ReceiveData(USART2);//读取接收到的数据
-//	}   		 
-//	USART_ClearITPendingBit(USART2,USART_IT_RXNE);
-//} 
 
 void USART1_data_handle(u8 data)//串口1接收数据处理函数
 {

@@ -18,7 +18,7 @@
 (点击图片进入机智云官网)
 # Development Environment
 [![](Photo/keil.jpg)](http://www.keil.com/)  
-[![](Photo/stm32cubemx.png)](https://www.st.com/zh/development-tools/stm32cubemx.html)
+[![](Photo/stm32cubemx.jpg)](https://www.st.com/zh/development-tools/stm32cubemx.html)
 
 
 

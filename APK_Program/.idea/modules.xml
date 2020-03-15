@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/APK_Program.iml" filepath="$PROJECT_DIR$/APK_Program.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/APK_Program-app.iml" filepath="$PROJECT_DIR$/app/APK_Program-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Intelligent-security-alarm-system-APK_Program.iml" filepath="$PROJECT_DIR$/Intelligent-security-alarm-system-APK_Program.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

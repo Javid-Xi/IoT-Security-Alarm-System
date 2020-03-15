@@ -8,10 +8,10 @@
 ![](Photo/Photo-网关.jpg)
 ### 3.智能语音报警模块
 ![](Photo/Photo-语音报警器.jpg)
-### 4.无线门磁模块
-![](Photo/Photo-无线门磁.jpg)
-### 5.火焰烟雾监测模块
+### 4.火焰烟雾监测模块
 ![](Photo/Photo-气体监控模块.jpg)
+### 5.无线门磁模块
+![](Photo/Photo-无线门磁.jpg)
 ### 6.APP页面展示
 ![](Photo/Photo4.jpg)
 ****

@@ -22,7 +22,7 @@
 ### 3.Android Studio
 [![](Photo/android-studio-logo.png)](https://developer.android.com/studio)
 ## Cloud Platform
-## Gizwits(机智云)
+### 1.Gizwits(机智云)
 [![](Photo/Gizwits.jpg)](http://www.gizwits.com/)  
 (点击图片进入机智云官网)
 

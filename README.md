@@ -1,18 +1,18 @@
 # 智能安防报警系统
 # Intelligent Security Alarm System
 ****
-## 成品展示
-### 1.系统整体展示图
+## 成品展示(Product Display)
+### 1.系统整体展示图(Overall System)
 ![](Photo/Photo2.jpg)
-### 2.智能网关
+### 2.智能网关(Intelligent Gateway)
 ![](Photo/Photo-网关.jpg)
-### 3.智能语音报警模块
+### 3.智能语音报警模块(Voice Alarm Module)
 ![](Photo/Photo-语音报警器.jpg)
-### 4.火焰烟雾监测模块
+### 4.火焰烟雾监测模块(Gas Detection Module)
 ![](Photo/Photo-气体监控模块.jpg)
-### 5.无线门磁模块
+### 5.无线门磁模块(Wireless Door Sensor Module)
 ![](Photo/Photo-无线门磁.jpg)
-### 6.APP页面展示
+### 6.APP页面展示(APP Page)
 ![](Photo/Photo4.jpg)  
 ****
 #### For more details, Please watch the DemoVideo.mp4 and the Project Summary Report.pdf.

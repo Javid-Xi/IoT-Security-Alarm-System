@@ -14,6 +14,8 @@
 ![](Photo/Photo-无线门磁.jpg)
 ### 6.APP页面展示
 ![](Photo/Photo4.jpg)
+###展示视频
+<video src="Demo Video.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
 ****
 ## Development Environment
 ### 1.SOLIDWORKS 2018

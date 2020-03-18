@@ -4,7 +4,7 @@
 ## 成品展示(Product Display)
 ### 1.系统整体展示图(Overall System)
 ![](Photo/Photo2.jpg)
-### 2.智能网关(Intelligent Gateway)
+### 2.智能网关模块(Intelligent Gateway Module)
 ![](Photo/Photo-网关.jpg)
 ### 3.智能语音报警模块(Voice Alarm Module)
 ![](Photo/Photo-语音报警器.jpg)

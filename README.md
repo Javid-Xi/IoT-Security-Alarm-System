@@ -13,9 +13,9 @@
 ### 5.无线门磁模块
 ![](Photo/Photo-无线门磁.jpg)
 ### 6.APP页面展示
-![](Photo/Photo4.jpg)
-###展示视频
-<video src="https://github.com/Javid-Xi/Intelligent-security-alarm-system/blob/master/Demo%20Video.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
+![](Photo/Photo4.jpg)  
+Please watch the demo video: DemoVideo.mp4  
+For more details, please refer to the file of Project Summary Report.pdf
 ****
 ## Development Environment
 ### 1.SOLIDWORKS 2018

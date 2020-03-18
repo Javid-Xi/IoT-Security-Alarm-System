@@ -14,8 +14,8 @@
 ![](Photo/Photo-无线门磁.jpg)
 ### 6.APP页面展示
 ![](Photo/Photo4.jpg)  
-Please watch the demo video: DemoVideo.mp4  
-For more details, please refer to the file of Project Summary Report.pdf
+#### Please watch the demo video: DemoVideo.mp4  
+#### For more details, please refer to the file of Project Summary Report.pdf
 ****
 ## Development Environment
 ### 1.SOLIDWORKS 2018

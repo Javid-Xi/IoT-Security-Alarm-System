@@ -29,7 +29,8 @@
 ## Cloud Platform
 ### 1.Gizwits(机智云)
 [![](Photo/software/Gizwits.jpg)](http://www.gizwits.com/)  
-(点击图片进入机智云官网)
+(点击图片进入机智云官网)  
+(Click the picture to enter the official website of Gizwits)
 
 
 

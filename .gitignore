@@ -2,7 +2,9 @@
 *.dbgconf
 *.uvguix.Javid
 *.uvguix.admin
+*.uvoptx
 *.lst
+*.mxproject
 /MCU_Program/MCU_Alarm/OBJ/
 /MCU_Program/MCU_Alarm/USER/Listings/
 /MCU_Program/MCU_Gate_magnetism/OBJ/

@@ -3,18 +3,12 @@
 * @file         hal_key.c
 * @brief        按键驱动
 
-* 按键模块采用定时器 + GPIO状态读取机制，GPIO的配置要根据STM32的相关手册来配置
-
-* 本驱动支持 0 ~ 12 个GPIO按键扩展，支持跨平台移植。
-* @author       Gizwits
-* @date         2016-09-05
-* @version      V03010101
-* @copyright    Gizwits
-* 
-* @note         机智云.只为智能硬件而生
-*               Gizwits Smart Cloud  for Smart Products
-*               链接|增值ֵ|开放|中立|安全|自有|自由|生态
-*               www.gizwits.com
+* @author       Javid
+* @date         2019-02-20
+* @version      1.0
+* @copyright    Javid
+*
+* @note
 *
 ***********************************************************/
 #include "hal_key.h"

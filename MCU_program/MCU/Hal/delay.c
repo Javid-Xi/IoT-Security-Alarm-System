@@ -1,10 +1,19 @@
+/**
+************************************************************
+* @file         delay.c
+* @brief        延时
+
+* @author       Javid
+* @date         2019-02-20
+* @version      1.0
+*
+***********************************************************/
 #include "delay.h"
 
 static uint8_t fac_us = 0; //us延时倍乘数
 static uint16_t fac_ms = 0; //ms延时倍乘数,在ucos下,代表每个节拍的ms数
 
 //初始化延迟函数
-//当使用ucos的时候,此函数会初始化ucos的时钟节拍
 //SYSTICK的时钟固定为HCLK时钟的1/8
 //SYSCLK:系统时钟
 void delay_init(uint8_t SYSCLK)

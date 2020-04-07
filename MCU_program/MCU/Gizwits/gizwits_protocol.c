@@ -2,15 +2,9 @@
 ************************************************************
 * @file         gizwits_protocol.c
 * @brief        Corresponding gizwits_product.c header file (including product hardware and software version definition)
-* @author       Gizwits
-* @date         2017-07-19
-* @version      V03030000
-* @copyright    Gizwits
-* 
-* @note         机智云.只为智能硬件而生
-*               Gizwits Smart Cloud  for Smart Products
-*               链接|增值ֵ|开放|中立|安全|自有|自由|生态
-*               www.gizwits.com
+* @author       Javid
+* @date         2018-12-19
+* @version      1.0
 *
 ***********************************************************/
 #include "ringBuffer.h"

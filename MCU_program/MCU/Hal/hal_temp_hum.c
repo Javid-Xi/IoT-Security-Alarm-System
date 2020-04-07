@@ -1,3 +1,13 @@
+/**
+************************************************************
+* @file         hal_temp_hum.c
+* @brief        DHT11Çý¶¯
+
+* @author       Javid
+* @date         2019-02-20
+* @version      1.0
+*
+***********************************************************/
 #include "hal_temp_hum.h"
 #include <string.h>
 #include "delay.h"

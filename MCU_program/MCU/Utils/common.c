@@ -2,15 +2,9 @@
 ************************************************************
 * @file         common.c
 * @brief        Generic tools
-* @author       Gizwits
+* @author       Javid
 * @date         2017-07-19
-* @version      V03030000
-* @copyright    Gizwits
-*
-* @note         Gizwits is only for smart hardware
-*               Gizwits Smart Cloud for Smart Products
-*               Links | Value Added | Open | Neutral | Safety | Own | Free | Ecology
-*               www.gizwits.com
+* @version      1.0
 *
 ***********************************************************/
 #include "common.h"

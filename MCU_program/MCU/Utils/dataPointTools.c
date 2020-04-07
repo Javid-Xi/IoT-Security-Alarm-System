@@ -2,15 +2,9 @@
 ************************************************************
 * @file         dataPointTools.c
 * @brief        Data point processing tool set
-* @author       Gizwits
-* @date         2017-07-19
-* @version      V03030000
-* @copyright    Gizwits
-*
-* @note         Gizwits is only for smart hardware
-*               Gizwits Smart Cloud for Smart Products
-*               Links | Value Added | Open | Neutral | Safety | Own | Free | Ecology
-*               www.gizwits.com
+* @author       Javid
+* @date         2018-12-19
+* @version      1.0
 *
 ***********************************************************/
 #include "dataPointTools.h"

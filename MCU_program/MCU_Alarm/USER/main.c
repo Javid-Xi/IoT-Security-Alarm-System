@@ -8,7 +8,7 @@
 * @copyright    LElink
 * 
 * @note         Alarm_model KEY: 1000
-								Manual/Automatic_alarm_mode KEY: 1001 
+*  				Manual/Automatic_alarm_mode KEY: 1001 
 *
 ***********************************************************/
 #include "stm32f10x.h"
@@ -69,7 +69,7 @@ int main()
 	}
 }
 
-//系统初始化函数
+/*****************系统初始化函数******************/ 
 void sys_Initialization(void)
 {
 	delay_ms(200);
@@ -85,7 +85,7 @@ void sys_Initialization(void)
 	delay_s(1);
 }
 
-//用户处理函数
+/*****************用户数据处理函数******************/ 
 void userHandle(void)
 {
 	static u8 Model_up=0;
@@ -114,7 +114,7 @@ void userHandle(void)
 	}
 }
 
-//自动报警模式
+/*****************自动报警模式数据处理函数******************/ 
 void Automatic_alarm_mode(void)
 {
 	static u8 MENCI_1_up=1,MENCI_2_up=1,MQ_2_up=1,Flame_1_up=1;
@@ -172,8 +172,7 @@ void Automatic_alarm_mode(void)
 	}
 }
 
-
-//手动报警模式
+/*****************手动报警模式数据处理函数******************/ 
 void Manual_alarm_mode(void)
 {
 	if(currentDataPoint.valueAlarm==1)

@@ -1,22 +1,19 @@
 /**
 ************************************************************
-* @file         hal_key.c
+* @file         hal_usart.c
 * @brief        串口3数据处理
 
 * @author       Javid
 * @date         2019-02-20
-* @version      V03010101
-* @copyright    Javid
-*
-* @note
+* @version      1.0
 *
 ***********************************************************/
 #include "hal_usart.h"
 
-
 dataPoint_t Zigbee_dataPoint_t;
 extern UART_HandleTypeDef huart3;
 
+/*****************串口数据处理******************/ 
 void Zigbee_data_handle(uint8_t Zigbee_data)
 {
     if((Zigbee_data & 0xF0) == 0x10) //无线门磁1
@@ -43,6 +40,7 @@ void Zigbee_data_handle(uint8_t Zigbee_data)
 
 }
 
+/*****************串口数据发送******************/ 
 void Zigbee_send(uint8_t Zigbee_Alarm)
 {
     HAL_UART_Transmit(&huart3, &Zigbee_Alarm, 1, 10);

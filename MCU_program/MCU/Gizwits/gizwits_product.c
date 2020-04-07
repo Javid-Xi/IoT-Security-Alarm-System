@@ -2,15 +2,9 @@
 ************************************************************
 * @file         gizwits_product.c
 * @brief        Gizwits control protocol processing, and platform-related       hardware initialization
-* @author       Gizwits
-* @date         2017-07-19
-* @version      V03030000
-* @copyright    Gizwits
-*
-* @note         机智云.只为智能硬件而生
-*               Gizwits Smart Cloud  for Smart Products
-*               链接|增值?|开放|中立|安全|自有|自由|生态
-*               www.gizwits.com
+* @author       Javid
+* @date         2018-12-19
+* @version      1.0
 *
 ***********************************************************/
 #include <stdio.h>
@@ -173,7 +167,7 @@ int8_t gizwitsEventProcess(eventInfo_t *info, uint8_t *gizdata, uint32_t len)
 }
 
 /**
-* User data acquisition
+* 数据采集上报
 
 * Here users need to achieve in addition to data points other than the collection of data collection, can be self-defined acquisition frequency and design data filtering algorithm
 

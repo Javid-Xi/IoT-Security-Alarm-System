@@ -1,10 +1,20 @@
+/**
+************************************************************
+* @file         usart.c
+* @brief        串口驱动配置
+
+* @author       Javid
+* @date         2019-02-20
+* @version      1.0
+*
+***********************************************************/
+
 #include "sys.h"
 #include "usart.h"	
 #include "stdio.h"
 
 dataPoint_t currentDataPoint;
 //u8 Voice_work=Voice_Free;
-//////////////////////////////////////////////////////////////////
 
 //加入以下代码,支持printf函数,而不需要选择use MicroLIB	  
 #if 1
@@ -247,7 +257,6 @@ void USART1_data_handle(u8 data)//串口1接收数据处理函数
 功能描述： 串口发送字符串数据
 入口参数： 	*DAT：字符串指针
 返 回 值： none
-其他说明： API 供外部使用，直观！
 **************************************************************************/
 void Send_stringdata(uint8_t *DAT,uint8_t len)
 {

@@ -1,8 +1,8 @@
 # 智能安防报警系统
 # Intelligent Security Alarm System
 ****
-更多详情介绍请查看我的[博客文章](https://javidxi.xyz/lelink/)  
-Please check [my blog post](https://javidxi.xyz/lelink/)
+更多详情介绍请查看我的[博客文章](https://javid.cn/lelink/)  
+Please check [my blog post](https://javid.cn/lelink/)
 ****
 ## 成品展示(Product Display)
 ### 1.系统整体展示图(Overall System)

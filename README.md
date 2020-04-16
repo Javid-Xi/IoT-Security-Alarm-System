@@ -24,6 +24,7 @@ Please check [my blog post](https://javid.cn/lelink/)
 ### 4.火焰烟雾监测模块(Gas Detection Module)
 
 <img src="https://cdn.jsdelivr.net/gh/Javid-Xi/Intelligent-Security-Alarm-System@1.4/Photo/Photo-气体监控模块.jpg" style="border-radius:20px"/>
+
 ### 5.无线门磁模块(Wireless Door Sensor Module)
 
 <img src="https://cdn.jsdelivr.net/gh/Javid-Xi/Intelligent-Security-Alarm-System@1.4/Photo/Photo-无线门磁.jpg" style="border-radius:20px"/>

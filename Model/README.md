@@ -1,4 +1,3 @@
-# 智能安防报警系统
 # Intelligent Security Alarm System
 
 由于之前机械硬盘出现损坏，所以模型文件丢失了。现在只有当时出的渲染图了。

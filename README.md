@@ -2,6 +2,7 @@
 # Intelligent Security Alarm System
 
 Project in [2018]()
+Control Chip: STM32F103C8T6
 
 ****
 更多详情介绍请查看我的[博客文章](https://javid.cn/lelink/)  

@@ -41,11 +41,7 @@ int fputc(int ch, FILE *f)
 }
 #endif 
 
-
- 
-
 //接收状态
-  
 void uart_1_init(u32 bound)
 	{
 		//GPIO端口设置

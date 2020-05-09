@@ -30,7 +30,7 @@ For more details, please check [my blog post](https://javid.cn/lelink/)
 ![](https://cdn.jsdelivr.net/gh/Javid-Xi/Intelligent-Security-Alarm-System@1.4/Photo/Photo4.jpg)  
 
 ****
-#### For more details, please check DemoVideo.mp4 and Project Summary Report.pdf.
+#### For more details, please check Demo.mp4, LElink.apk and Report.pdf.
 ****
 ## Development Environment
 

@@ -1,12 +1,12 @@
 # 智能安防报警系统
 # Intelligent Security Alarm System
 
-Project in [2018]()  
+Project in [2018](https://github.com/Javid-Xi/IoT-Security-Alarm-System)  
 Control Chip: STM32F103C8T6
 
 ****
 更多详情介绍请查看我的[博客文章](https://javid.cn/lelink/)  
-Please check [my blog post](https://javid.cn/lelink/)
+For more details, please check [my blog post](https://javid.cn/lelink/)
 ****
 
 ## 成品展示(Product Display)
@@ -30,7 +30,7 @@ Please check [my blog post](https://javid.cn/lelink/)
 ![](https://cdn.jsdelivr.net/gh/Javid-Xi/Intelligent-Security-Alarm-System@1.4/Photo/Photo4.jpg)  
 
 ****
-#### For more details, Please watch the DemoVideo.mp4 and the Project Summary Report.pdf.
+#### For more details, please check DemoVideo.mp4 and Project Summary Report.pdf.
 ****
 ## Development Environment
 

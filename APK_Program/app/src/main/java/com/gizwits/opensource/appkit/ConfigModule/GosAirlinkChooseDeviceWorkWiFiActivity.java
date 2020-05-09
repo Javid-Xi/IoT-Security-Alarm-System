@@ -141,7 +141,7 @@ public class GosAirlinkChooseDeviceWorkWiFiActivity extends GosConfigModuleBaseA
                 etSSID.setText(NetUtils.getCurentWifiSSID(this));
             }
 
-            // 当没有任何文字的时候设置为明文显示
+// 当没有任何文字的时候设置为明文显示
 //            if (TextUtils.isEmpty(etPsw.getText().toString())) {
 //                cbLaws.setChecked(true);
 //                etPsw.setInputType(0x90);

@@ -120,7 +120,6 @@ public final class CaptureActivity extends GosBaseActivity implements SurfaceHol
                     setResult(33, intent);
                     finish();
                     break;
-
             }
         }
     };

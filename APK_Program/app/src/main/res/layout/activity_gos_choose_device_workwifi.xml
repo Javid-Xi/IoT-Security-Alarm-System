@@ -36,7 +36,6 @@
 
     </LinearLayout>
 
-
     <LinearLayout
         style="@style/InputBoxStyle"
         android:layout_width="match_parent"

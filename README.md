@@ -6,7 +6,7 @@ Control Chip: STM32F103C8T6
 
 ****
 更多详情介绍请查看我的[博客文章](https://javid.cn/lelink/)  
-For more details, please check [my blog post](https://javid.cn/lelink/)
+For more details, please see [my blog post](https://javid.cn/lelink/)
 ****
 
 ## 成品展示(Product Display)
